@@ -1,0 +1,501 @@
+ID,Opinion,Source,DiseaseLabel,Label
+1,"Fragility fractures and low bone mass, typical Osteoporosis.",Radiologist,Osteoporosis,Correct
+2,"Bones appear dense, trauma more likely than Osteoporosis.",Doctor,Osteoporosis,Incorrect
+3,"Definite Submandibular Stone, moderate grade, needs medication.",Radiologist,Submandibular Stone,Correct
+4,"Diffuse soft tissue edema, not specific for Submandibular Stone.",Patient,Submandibular Stone,Incorrect
+5,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Radiologist,Disc Herniation,Correct
+6,"Enlarged tonsils with exudate, classic for Tonsillitis.",Specialist,Tonsillitis,Incorrect
+7,"Irregular mass with necrotic center, typical for Glioblastoma.",Specialist,Glioblastoma,Correct
+8,"Diffuse infiltrates, Lung Cancer less likely.",Doctor,Lung Cancer,Incorrect
+9,"Mild disc bulge without nerve compression, herniation doubtful.",Radiologist,Disc Herniation,Incorrect
+10,"Salivary glands appear normal, no definite Submandibular Stone.",Doctor,Submandibular Stone,Incorrect
+11,"Fragility fractures and low bone mass, typical Osteoporosis.",Specialist,Osteoporosis,Correct
+12,Marked tonsillar hypertrophy with inflammatory changes.,Doctor,Tonsillitis,Correct
+13,"Mild bowel wall thickening, may represent IBS rather than Diverticulitis.",Radiologist,Diverticulitis,Incorrect
+14,"Homogeneous thyroid echotexture, nodules unlikely.",Radiologist,Thyroid Nodules,Incorrect
+15,"Definite Submandibular Stone, moderate grade, needs medication.",Specialist,Submandibular Stone,Correct
+16,Generalized osteopenia with vertebral compression fractures.,Specialist,Osteoporosis,Correct
+17,Large irregular pulmonary lesion with lymph node enlargement.,Patient,Lung Cancer,Incorrect
+18,"Pericolic fat stranding and diverticula, consistent with Diverticulitis.",Specialist,Diverticulitis,Correct
+19,"Non-specific white matter changes, Glioblastoma doubtful.",Specialist,Glioblastoma,Incorrect
+20,"Mild bowel wall thickening, may represent IBS rather than Diverticulitis.",Doctor,Diverticulitis,Incorrect
+21,"Abdominal pain with normal CT, Diverticulitis unlikely.",Patient,Diverticulitis,Incorrect
+22,"Irregular mass with necrotic center, typical for Glioblastoma.",Specialist,Glioblastoma,Correct
+23,"Mild jaw discomfort, Submandibular Stone unlikely, needs follow-up.",Specialist,Submandibular Stone,Incorrect
+24,Marked tonsillar hypertrophy with inflammatory changes.,Radiologist,Tonsillitis,Correct
+25,Thyroid slightly enlarged but no discrete nodules identified.,Doctor,Thyroid Nodules,Incorrect
+26,"Homogeneous thyroid echotexture, nodules unlikely.",Radiologist,Thyroid Nodules,Incorrect
+27,"Abdominal pain with normal CT, Diverticulitis unlikely.",Doctor,Diverticulitis,Incorrect
+28,Spiculated lung mass highly suggestive of Lung Cancer.,Specialist,Lung Cancer,Correct
+29,"Just motion artifact, not Metacarpal Fracture.",Doctor,Metacarpal Fracture,Incorrect
+30,"Bones appear dense, trauma more likely than Osteoporosis.",Radiologist,Osteoporosis,Correct
+31,"Small lung opacity, may be infection rather than Lung Cancer.",Specialist,Lung Cancer,Incorrect
+32,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Radiologist,Disc Herniation,Correct
+33,"Small lesion, likely demyelination rather than Glioblastoma.",Specialist,Glioblastoma,Incorrect
+34,Multiple uterine masses compatible with Fibroids.,Radiologist,Uterine Fibroids,Incorrect
+35,"Mild jaw discomfort, Submandibular Stone unlikely, needs follow-up.",Radiologist,Submandibular Stone,Correct
+36,"Definite Submandibular Stone, moderate grade, needs medication.",Specialist,Submandibular Stone,Incorrect
+37,Transverse fracture line across the metacarpal shaft.,Radiologist,Metacarpal Fracture,Correct
+38,"Normal image, no Disc Herniation despite symptoms.",Patient,Disc Herniation,Incorrect
+39,Comminuted Metacarpal Fracture after direct trauma.,Patient,Metacarpal Fracture,Correct
+40,Infiltrative brain tumor pattern consistent with Glioblastoma.,Doctor,Glioblastoma,Correct
+41,Generalized osteopenia with vertebral compression fractures.,Specialist,Osteoporosis,Correct
+42,"Bone density significantly reduced, consistent with Osteoporosis.",Patient,Osteoporosis,Incorrect
+43,"Definite Diverticulitis, moderate grade, needs medication.",Doctor,Diverticulitis,Correct
+44,Well-defined uterine lesions typical of Fibroids.,Doctor,Uterine Fibroids,Correct
+45,Transverse fracture line across the metacarpal shaft.,Patient,Metacarpal Fracture,Correct
+46,"Just motion artifact, not Glioblastoma.",Patient,Glioblastoma,Correct
+47,"Irregular mass with necrotic center, typical for Glioblastoma.",Specialist,Glioblastoma,Correct
+48,Endometrial thickening without definite Fibroids.,Radiologist,Uterine Fibroids,Incorrect
+49,"Normal alignment, Metacarpal Fracture unlikely.",Doctor,Metacarpal Fracture,Incorrect
+50,Clear obstructive Submandibular Stone with duct dilation.,Radiologist,Submandibular Stone,Incorrect
+51,Multiple uterine masses compatible with Fibroids.,Doctor,Uterine Fibroids,Correct
+52,Comminuted Metacarpal Fracture after direct trauma.,Radiologist,Metacarpal Fracture,Correct
+53,"Salivary glands appear normal, no definite Submandibular Stone.",Specialist,Submandibular Stone,Incorrect
+54,"No clear fracture line, soft tissue swelling only.",Radiologist,Metacarpal Fracture,Incorrect
+55,Scattered diverticula without clear signs of inflammation.,Patient,Diverticulitis,Incorrect
+56,Generalized osteopenia with vertebral compression fractures.,Doctor,Osteoporosis,Incorrect
+57,"Just motion artifact, not Metacarpal Fracture.",Specialist,Metacarpal Fracture,Incorrect
+58,"Clear Metacarpal Fracture with mild displacement, splint required.",Patient,Metacarpal Fracture,Correct
+59,"Homogeneous thyroid echotexture, nodules unlikely.",Doctor,Thyroid Nodules,Incorrect
+60,Well-defined uterine lesions typical of Fibroids.,Doctor,Uterine Fibroids,Correct
+61,"Definite Diverticulitis, moderate grade, needs medication.",Radiologist,Diverticulitis,Correct
+62,Large posterior disc herniation indenting the thecal sac.,Radiologist,Disc Herniation,Correct
+63,"Diffuse thyroiditis pattern, no suspicious nodules.",Doctor,Thyroid Nodules,Correct
+64,"Just motion artifact, not Glioblastoma.",Doctor,Glioblastoma,Incorrect
+65,Scattered diverticula without clear signs of inflammation.,Radiologist,Diverticulitis,Incorrect
+66,"Normal uterine contour, no clear Fibroids.",Doctor,Uterine Fibroids,Correct
+67,Scattered diverticula without clear signs of inflammation.,Radiologist,Diverticulitis,Incorrect
+68,"Definite Submandibular Stone, moderate grade, needs medication.",Specialist,Submandibular Stone,Correct
+69,"No clear fracture line, soft tissue swelling only.",Patient,Metacarpal Fracture,Incorrect
+70,"Mild bowel wall thickening, may represent IBS rather than Diverticulitis.",Radiologist,Diverticulitis,Incorrect
+71,"Mild bowel wall thickening, may represent IBS rather than Diverticulitis.",Radiologist,Diverticulitis,Incorrect
+72,"Mild throat redness, viral pharyngitis more likely than Tonsillitis.",Radiologist,Tonsillitis,Incorrect
+73,"Bone density significantly reduced, consistent with Osteoporosis.",Patient,Osteoporosis,Correct
+74,"Clear Lung Cancer with mild displacement, surgical fixation required.",Radiologist,Lung Cancer,Incorrect
+75,Transverse fracture line across the metacarpal shaft.,Doctor,Metacarpal Fracture,Correct
+76,"Dominant thyroid nodule with irregular margins, needs biopsy.",Patient,Thyroid Nodules,Correct
+77,Multiple uterine masses compatible with Fibroids.,Doctor,Uterine Fibroids,Correct
+78,Multiple hypoechoic thyroid nodules with microcalcifications.,Doctor,Thyroid Nodules,Incorrect
+79,"Irregular mass with necrotic center, typical for Glioblastoma.",Patient,Glioblastoma,Correct
+80,Well-defined uterine lesions typical of Fibroids.,Radiologist,Uterine Fibroids,Correct
+81,Infiltrative brain tumor pattern consistent with Glioblastoma.,Radiologist,Glioblastoma,Correct
+82,"No evidence of Osteoporosis, consider muscle strain.",Specialist,Osteoporosis,Incorrect
+83,"No evidence of Osteoporosis, consider muscle strain.",Specialist,Osteoporosis,Incorrect
+84,Marked tonsillar hypertrophy with inflammatory changes.,Radiologist,Tonsillitis,Correct
+85,"Just motion artifact, not Glioblastoma.",Specialist,Glioblastoma,Incorrect
+86,"Definite Submandibular Stone, moderate grade, needs medication.",Patient,Submandibular Stone,Correct
+87,"Mild disc bulge without nerve compression, herniation doubtful.",Patient,Disc Herniation,Incorrect
+88,"Normal alignment, Metacarpal Fracture unlikely.",Radiologist,Metacarpal Fracture,Incorrect
+89,"Homogeneous thyroid echotexture, nodules unlikely.",Specialist,Thyroid Nodules,Correct
+90,"Just motion artifact, not Metacarpal Fracture.",Radiologist,Metacarpal Fracture,Correct
+91,Clear obstructive Submandibular Stone with duct dilation.,Doctor,Submandibular Stone,Correct
+92,Focal disc extrusion causing canal narrowing.,Patient,Disc Herniation,Correct
+93,Comminuted Metacarpal Fracture after direct trauma.,Doctor,Metacarpal Fracture,Correct
+94,"Bone density near normal limits, Osteoporosis doubtful.",Radiologist,Osteoporosis,Incorrect
+95,Well-defined uterine lesions typical of Fibroids.,Radiologist,Uterine Fibroids,Correct
+96,"Fragility fractures and low bone mass, typical Osteoporosis.",Specialist,Osteoporosis,Correct
+97,"Normal chest imaging, Lung Cancer unlikely.",Patient,Lung Cancer,Incorrect
+98,Multiple uterine masses compatible with Fibroids.,Patient,Uterine Fibroids,Correct
+99,"No clear fracture line, soft tissue swelling only.",Patient,Metacarpal Fracture,Incorrect
+100,"Dominant thyroid nodule with irregular margins, needs biopsy.",Specialist,Thyroid Nodules,Correct
+101,Acute Tonsillitis with erythema and white patches.,Doctor,Tonsillitis,Incorrect
+102,"Clear Metacarpal Fracture with mild displacement, splint required.",Radiologist,Metacarpal Fracture,Incorrect
+103,"Irregular mass with necrotic center, typical for Glioblastoma.",Patient,Glioblastoma,Incorrect
+104,Infiltrative brain tumor pattern consistent with Glioblastoma.,Doctor,Glioblastoma,Correct
+105,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Specialist,Disc Herniation,Correct
+106,"Non-specific white matter changes, Glioblastoma doubtful.",Radiologist,Glioblastoma,Incorrect
+107,"Thyroid Nodules confirmed, urgent follow-up recommended.",Patient,Thyroid Nodules,Correct
+108,"Non-specific white matter changes, Glioblastoma doubtful.",Radiologist,Glioblastoma,Incorrect
+109,Large intramural fibroid distorting the uterine cavity.,Doctor,Uterine Fibroids,Incorrect
+110,"Irregular mass with necrotic center, typical for Glioblastoma.",Radiologist,Glioblastoma,Incorrect
+111,"Irregular mass with necrotic center, typical for Glioblastoma.",Specialist,Glioblastoma,Correct
+112,"Irregular mass with necrotic center, typical for Glioblastoma.",Specialist,Glioblastoma,Correct
+113,Large irregular pulmonary lesion with lymph node enlargement.,Doctor,Lung Cancer,Correct
+114,"Enlarged tonsils with exudate, classic for Tonsillitis.",Doctor,Tonsillitis,Correct
+115,"Clear Metacarpal Fracture with mild displacement, splint required.",Radiologist,Metacarpal Fracture,Correct
+116,"Normal chest imaging, Lung Cancer unlikely.",Radiologist,Lung Cancer,Incorrect
+117,Thyroid slightly enlarged but no discrete nodules identified.,Doctor,Thyroid Nodules,Incorrect
+118,"Mild bowel wall thickening, may represent IBS rather than Diverticulitis.",Doctor,Diverticulitis,Incorrect
+119,"Mild disc bulge without nerve compression, herniation doubtful.",Patient,Disc Herniation,Incorrect
+120,Comminuted Metacarpal Fracture after direct trauma.,Radiologist,Metacarpal Fracture,Incorrect
+121,"Homogeneous thyroid echotexture, nodules unlikely.",Doctor,Thyroid Nodules,Incorrect
+122,"Mild disc bulge without nerve compression, herniation doubtful.",Patient,Disc Herniation,Incorrect
+123,"No evidence of Osteoporosis, consider muscle strain.",Doctor,Osteoporosis,Incorrect
+124,Spiculated lung mass highly suggestive of Lung Cancer.,Patient,Lung Cancer,Correct
+125,Infiltrative brain tumor pattern consistent with Glioblastoma.,Specialist,Glioblastoma,Correct
+126,Endometrial thickening without definite Fibroids.,Patient,Uterine Fibroids,Incorrect
+127,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Doctor,Disc Herniation,Correct
+128,Spiculated lung mass highly suggestive of Lung Cancer.,Patient,Lung Cancer,Correct
+129,"Small lung opacity, may be infection rather than Lung Cancer.",Patient,Lung Cancer,Incorrect
+130,"Dominant thyroid nodule with irregular margins, needs biopsy.",Specialist,Thyroid Nodules,Correct
+131,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Radiologist,Uterine Fibroids,Incorrect
+132,"Small lung opacity, may be infection rather than Lung Cancer.",Patient,Lung Cancer,Incorrect
+133,"Clear Lung Cancer with mild displacement, surgical fixation required.",Doctor,Lung Cancer,Correct
+134,"Non-specific white matter changes, Glioblastoma doubtful.",Specialist,Glioblastoma,Incorrect
+135,Well-defined uterine lesions typical of Fibroids.,Specialist,Uterine Fibroids,Correct
+136,Spiculated lung mass highly suggestive of Lung Cancer.,Radiologist,Lung Cancer,Incorrect
+137,Comminuted Metacarpal Fracture after direct trauma.,Radiologist,Metacarpal Fracture,Correct
+138,Large irregular pulmonary lesion with lymph node enlargement.,Specialist,Lung Cancer,Correct
+139,Transverse fracture line across the metacarpal shaft.,Radiologist,Metacarpal Fracture,Correct
+140,Multiple uterine masses compatible with Fibroids.,Doctor,Uterine Fibroids,Correct
+141,Scattered diverticula without clear signs of inflammation.,Doctor,Diverticulitis,Incorrect
+142,Large posterior disc herniation indenting the thecal sac.,Patient,Disc Herniation,Correct
+143,Clear obstructive Submandibular Stone with duct dilation.,Doctor,Submandibular Stone,Correct
+144,Infiltrative brain tumor pattern consistent with Glioblastoma.,Doctor,Glioblastoma,Correct
+145,"Normal image, no Disc Herniation despite symptoms.",Radiologist,Disc Herniation,Correct
+146,"Small lesion, likely demyelination rather than Glioblastoma.",Radiologist,Glioblastoma,Incorrect
+147,"Irregular mass with necrotic center, typical for Glioblastoma.",Specialist,Glioblastoma,Correct
+148,Infiltrative brain tumor pattern consistent with Glioblastoma.,Doctor,Glioblastoma,Correct
+149,"Bone density near normal limits, Osteoporosis doubtful.",Radiologist,Osteoporosis,Incorrect
+150,"Bone density significantly reduced, consistent with Osteoporosis.",Doctor,Osteoporosis,Correct
+151,Infiltrative brain tumor pattern consistent with Glioblastoma.,Patient,Glioblastoma,Correct
+152,Transverse fracture line across the metacarpal shaft.,Patient,Metacarpal Fracture,Incorrect
+153,"Normal alignment, Metacarpal Fracture unlikely.",Radiologist,Metacarpal Fracture,Incorrect
+154,Multiple uterine masses compatible with Fibroids.,Specialist,Uterine Fibroids,Correct
+155,"Fragility fractures and low bone mass, typical Osteoporosis.",Specialist,Osteoporosis,Correct
+156,"Normal chest imaging, Lung Cancer unlikely.",Patient,Lung Cancer,Incorrect
+157,Endometrial thickening without definite Fibroids.,Doctor,Uterine Fibroids,Incorrect
+158,"Small lesion, likely demyelination rather than Glioblastoma.",Specialist,Glioblastoma,Correct
+159,"Normal alignment, Metacarpal Fracture unlikely.",Doctor,Metacarpal Fracture,Incorrect
+160,Thyroid slightly enlarged but no discrete nodules identified.,Patient,Thyroid Nodules,Incorrect
+161,"Small lung opacity, may be infection rather than Lung Cancer.",Patient,Lung Cancer,Incorrect
+162,"Diffuse infiltrates, Lung Cancer less likely.",Specialist,Lung Cancer,Incorrect
+163,"Just motion artifact, not Tonsillitis.",Specialist,Tonsillitis,Incorrect
+164,Spiculated lung mass highly suggestive of Lung Cancer.,Doctor,Lung Cancer,Correct
+165,"Enlarged tonsils with exudate, classic for Tonsillitis.",Patient,Tonsillitis,Correct
+166,"Diffuse soft tissue edema, not specific for Submandibular Stone.",Patient,Submandibular Stone,Incorrect
+167,"Normal alignment, Metacarpal Fracture unlikely.",Patient,Metacarpal Fracture,Incorrect
+168,"Marked swelling around the submandibular gland, typical for Submandibular Stone.",Radiologist,Submandibular Stone,Correct
+169,"Diffuse infiltrates, Lung Cancer less likely.",Doctor,Lung Cancer,Correct
+170,"Back pain with normal MRI, Disc Herniation unlikely.",Radiologist,Disc Herniation,Incorrect
+171,"Mild jaw discomfort, Submandibular Stone unlikely, needs follow-up.",Radiologist,Submandibular Stone,Incorrect
+172,"Bone density significantly reduced, consistent with Osteoporosis.",Radiologist,Osteoporosis,Correct
+173,"Diffuse thyroiditis pattern, no suspicious nodules.",Patient,Thyroid Nodules,Incorrect
+174,Large irregular pulmonary lesion with lymph node enlargement.,Radiologist,Lung Cancer,Correct
+175,"Normal image, no Disc Herniation despite symptoms.",Doctor,Disc Herniation,Incorrect
+176,Infiltrative brain tumor pattern consistent with Glioblastoma.,Specialist,Glioblastoma,Correct
+177,"Homogeneous thyroid echotexture, nodules unlikely.",Patient,Thyroid Nodules,Incorrect
+178,"Diffuse infiltrates, Lung Cancer less likely.",Specialist,Lung Cancer,Incorrect
+179,Large intramural fibroid distorting the uterine cavity.,Radiologist,Uterine Fibroids,Correct
+180,"Just motion artifact, not Metacarpal Fracture.",Patient,Metacarpal Fracture,Correct
+181,"Diffuse infiltrates, Lung Cancer less likely.",Patient,Lung Cancer,Incorrect
+182,"Definite Diverticulitis, moderate grade, needs medication.",Radiologist,Diverticulitis,Correct
+183,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Patient,Disc Herniation,Incorrect
+184,"Clear Lung Cancer with mild displacement, surgical fixation required.",Patient,Lung Cancer,Correct
+185,"Segmental bowel wall thickening with inflamed diverticula, classic Diverticulitis.",Specialist,Diverticulitis,Correct
+186,"Non-specific white matter changes, Glioblastoma doubtful.",Patient,Glioblastoma,Incorrect
+187,"Small lung opacity, may be infection rather than Lung Cancer.",Doctor,Lung Cancer,Incorrect
+188,"Homogeneous thyroid echotexture, nodules unlikely.",Doctor,Thyroid Nodules,Incorrect
+189,"Bones appear dense, trauma more likely than Osteoporosis.",Doctor,Osteoporosis,Incorrect
+190,Thyroid slightly enlarged but no discrete nodules identified.,Specialist,Thyroid Nodules,Incorrect
+191,Multiple hypoechoic thyroid nodules with microcalcifications.,Radiologist,Thyroid Nodules,Correct
+192,"Just motion artifact, not Glioblastoma.",Radiologist,Glioblastoma,Incorrect
+193,"Back pain with normal MRI, Disc Herniation unlikely.",Radiologist,Disc Herniation,Incorrect
+194,Large posterior disc herniation indenting the thecal sac.,Specialist,Disc Herniation,Correct
+195,"Salivary glands appear normal, no definite Submandibular Stone.",Specialist,Submandibular Stone,Incorrect
+196,"Segmental bowel wall thickening with inflamed diverticula, classic Diverticulitis.",Specialist,Diverticulitis,Correct
+197,"Non-specific white matter changes, Glioblastoma doubtful.",Specialist,Glioblastoma,Incorrect
+198,"Just motion artifact, not Glioblastoma.",Radiologist,Glioblastoma,Incorrect
+199,"Normal tonsillar size, no clear Tonsillitis.",Specialist,Tonsillitis,Correct
+200,Infiltrative brain tumor pattern consistent with Glioblastoma.,Doctor,Glioblastoma,Correct
+201,"Diffuse infiltrates, Lung Cancer less likely.",Radiologist,Lung Cancer,Incorrect
+202,"Enlarged tonsils with exudate, classic for Tonsillitis.",Specialist,Tonsillitis,Correct
+203,"Abdominal pain with normal CT, Diverticulitis unlikely.",Doctor,Diverticulitis,Incorrect
+204,Spiculated lung mass highly suggestive of Lung Cancer.,Radiologist,Lung Cancer,Incorrect
+205,Multiple hypoechoic thyroid nodules with microcalcifications.,Radiologist,Thyroid Nodules,Correct
+206,Endometrial thickening without definite Fibroids.,Specialist,Uterine Fibroids,Incorrect
+207,"Diffuse thyroiditis pattern, no suspicious nodules.",Specialist,Thyroid Nodules,Incorrect
+208,"Mild throat redness, viral pharyngitis more likely than Tonsillitis.",Doctor,Tonsillitis,Correct
+209,"Normal alignment, Metacarpal Fracture unlikely.",Patient,Metacarpal Fracture,Incorrect
+210,Large intramural fibroid distorting the uterine cavity.,Doctor,Uterine Fibroids,Correct
+211,Generalized osteopenia with vertebral compression fractures.,Specialist,Osteoporosis,Correct
+212,"Enlarged tonsils with exudate, classic for Tonsillitis.",Patient,Tonsillitis,Incorrect
+213,Well-defined uterine lesions typical of Fibroids.,Radiologist,Uterine Fibroids,Correct
+214,"Diffuse infiltrates, Lung Cancer less likely.",Patient,Lung Cancer,Correct
+215,"Salivary glands appear normal, no definite Submandibular Stone.",Patient,Submandibular Stone,Correct
+216,"Just motion artifact, not Metacarpal Fracture.",Patient,Metacarpal Fracture,Incorrect
+217,Well-defined uterine lesions typical of Fibroids.,Radiologist,Uterine Fibroids,Correct
+218,"Bones appear dense, trauma more likely than Osteoporosis.",Patient,Osteoporosis,Incorrect
+219,Multiple hypoechoic thyroid nodules with microcalcifications.,Radiologist,Thyroid Nodules,Correct
+220,"Just motion artifact, not Metacarpal Fracture.",Specialist,Metacarpal Fracture,Incorrect
+221,Marked tonsillar hypertrophy with inflammatory changes.,Radiologist,Tonsillitis,Correct
+222,"Clear Lung Cancer with mild displacement, surgical fixation required.",Doctor,Lung Cancer,Incorrect
+223,"Enlarged tonsils with exudate, classic for Tonsillitis.",Radiologist,Tonsillitis,Incorrect
+224,Multiple uterine masses compatible with Fibroids.,Radiologist,Uterine Fibroids,Correct
+225,"Abdominal pain with normal CT, Diverticulitis unlikely.",Doctor,Diverticulitis,Incorrect
+226,"Abdominal pain with normal CT, Diverticulitis unlikely.",Specialist,Diverticulitis,Incorrect
+227,"Bone density near normal limits, Osteoporosis doubtful.",Radiologist,Osteoporosis,Correct
+228,"Just motion artifact, not Metacarpal Fracture.",Radiologist,Metacarpal Fracture,Incorrect
+229,"Abdominal pain with normal CT, Diverticulitis unlikely.",Doctor,Diverticulitis,Incorrect
+230,Spiculated lung mass highly suggestive of Lung Cancer.,Doctor,Lung Cancer,Correct
+231,"Just motion artifact, not Metacarpal Fracture.",Specialist,Metacarpal Fracture,Incorrect
+232,Clear obstructive Submandibular Stone with duct dilation.,Patient,Submandibular Stone,Correct
+233,"Fragility fractures and low bone mass, typical Osteoporosis.",Doctor,Osteoporosis,Correct
+234,"Just motion artifact, not Tonsillitis.",Radiologist,Tonsillitis,Incorrect
+235,"Mild disc bulge without nerve compression, herniation doubtful.",Patient,Disc Herniation,Incorrect
+236,Well-defined uterine lesions typical of Fibroids.,Patient,Uterine Fibroids,Incorrect
+237,"Bones appear dense, trauma more likely than Osteoporosis.",Radiologist,Osteoporosis,Incorrect
+238,Transverse fracture line across the metacarpal shaft.,Patient,Metacarpal Fracture,Correct
+239,"Fragility fractures and low bone mass, typical Osteoporosis.",Specialist,Osteoporosis,Correct
+240,Scattered diverticula without clear signs of inflammation.,Doctor,Diverticulitis,Correct
+241,"Bone density significantly reduced, consistent with Osteoporosis.",Specialist,Osteoporosis,Correct
+242,Well-defined uterine lesions typical of Fibroids.,Specialist,Uterine Fibroids,Correct
+243,Infiltrative brain tumor pattern consistent with Glioblastoma.,Patient,Glioblastoma,Correct
+244,"Diffuse soft tissue edema, not specific for Submandibular Stone.",Specialist,Submandibular Stone,Incorrect
+245,"Normal image, no Disc Herniation despite symptoms.",Patient,Disc Herniation,Incorrect
+246,Generalized osteopenia with vertebral compression fractures.,Specialist,Osteoporosis,Incorrect
+247,"Diffuse thyroiditis pattern, no suspicious nodules.",Doctor,Thyroid Nodules,Incorrect
+248,Multiple hypoechoic thyroid nodules with microcalcifications.,Specialist,Thyroid Nodules,Correct
+249,"Enlarged tonsils with exudate, classic for Tonsillitis.",Patient,Tonsillitis,Incorrect
+250,"Marked swelling around the submandibular gland, typical for Submandibular Stone.",Radiologist,Submandibular Stone,Correct
+251,Spiculated lung mass highly suggestive of Lung Cancer.,Specialist,Lung Cancer,Correct
+252,"Normal image, no Disc Herniation despite symptoms.",Radiologist,Disc Herniation,Incorrect
+253,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Specialist,Disc Herniation,Correct
+254,"Irregular mass with necrotic center, typical for Glioblastoma.",Patient,Glioblastoma,Correct
+255,Large intramural fibroid distorting the uterine cavity.,Doctor,Uterine Fibroids,Correct
+256,Focal disc extrusion causing canal narrowing.,Specialist,Disc Herniation,Incorrect
+257,"Just motion artifact, not Glioblastoma.",Doctor,Glioblastoma,Incorrect
+258,"No clear fracture line, soft tissue swelling only.",Specialist,Metacarpal Fracture,Incorrect
+259,Clear obstructive Submandibular Stone with duct dilation.,Radiologist,Submandibular Stone,Incorrect
+260,"Normal uterine contour, no clear Fibroids.",Specialist,Uterine Fibroids,Correct
+261,Clear obstructive Submandibular Stone with duct dilation.,Doctor,Submandibular Stone,Correct
+262,Large posterior disc herniation indenting the thecal sac.,Patient,Disc Herniation,Correct
+263,"Irregular mass with necrotic center, typical for Glioblastoma.",Radiologist,Glioblastoma,Correct
+264,Focal disc extrusion causing canal narrowing.,Specialist,Disc Herniation,Incorrect
+265,Generalized osteopenia with vertebral compression fractures.,Patient,Osteoporosis,Correct
+266,"Small lesion, likely demyelination rather than Glioblastoma.",Specialist,Glioblastoma,Incorrect
+267,"Pericolic fat stranding and diverticula, consistent with Diverticulitis.",Doctor,Diverticulitis,Correct
+268,"No clear fracture line, soft tissue swelling only.",Specialist,Metacarpal Fracture,Incorrect
+269,"Definite Diverticulitis, moderate grade, needs medication.",Specialist,Diverticulitis,Correct
+270,Focal disc extrusion causing canal narrowing.,Doctor,Disc Herniation,Correct
+271,Large irregular pulmonary lesion with lymph node enlargement.,Patient,Lung Cancer,Correct
+272,"Back pain with normal MRI, Disc Herniation unlikely.",Specialist,Disc Herniation,Incorrect
+273,"Enlarged tonsils with exudate, classic for Tonsillitis.",Patient,Tonsillitis,Correct
+274,"Homogeneous thyroid echotexture, nodules unlikely.",Doctor,Thyroid Nodules,Incorrect
+275,"Fragility fractures and low bone mass, typical Osteoporosis.",Doctor,Osteoporosis,Incorrect
+276,"Thyroid Nodules confirmed, urgent follow-up recommended.",Patient,Thyroid Nodules,Correct
+277,"Normal uterine contour, no clear Fibroids.",Doctor,Uterine Fibroids,Incorrect
+278,"Mild disc bulge without nerve compression, herniation doubtful.",Patient,Disc Herniation,Incorrect
+279,Clear obstructive Submandibular Stone with duct dilation.,Doctor,Submandibular Stone,Correct
+280,"Pericolic fat stranding and diverticula, consistent with Diverticulitis.",Patient,Diverticulitis,Correct
+281,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Specialist,Uterine Fibroids,Incorrect
+282,Multiple hypoechoic thyroid nodules with microcalcifications.,Doctor,Thyroid Nodules,Correct
+283,"Enlarged tonsils with exudate, classic for Tonsillitis.",Patient,Tonsillitis,Correct
+284,"Mild disc bulge without nerve compression, herniation doubtful.",Doctor,Disc Herniation,Incorrect
+285,Scattered diverticula without clear signs of inflammation.,Patient,Diverticulitis,Correct
+286,"Fragility fractures and low bone mass, typical Osteoporosis.",Specialist,Osteoporosis,Correct
+287,Well-defined uterine lesions typical of Fibroids.,Patient,Uterine Fibroids,Correct
+288,"Definite Submandibular Stone, moderate grade, needs medication.",Radiologist,Submandibular Stone,Correct
+289,"Clear Lung Cancer with mild displacement, surgical fixation required.",Radiologist,Lung Cancer,Incorrect
+290,"Bones appear dense, trauma more likely than Osteoporosis.",Doctor,Osteoporosis,Incorrect
+291,Large posterior disc herniation indenting the thecal sac.,Radiologist,Disc Herniation,Correct
+292,"Normal image, no Disc Herniation despite symptoms.",Patient,Disc Herniation,Correct
+293,"Just motion artifact, not Tonsillitis.",Patient,Tonsillitis,Incorrect
+294,"Clear Lung Cancer with mild displacement, surgical fixation required.",Specialist,Lung Cancer,Correct
+295,"Small lung opacity, may be infection rather than Lung Cancer.",Specialist,Lung Cancer,Incorrect
+296,"Mild disc bulge without nerve compression, herniation doubtful.",Specialist,Disc Herniation,Incorrect
+297,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Radiologist,Uterine Fibroids,Incorrect
+298,"Mild bowel wall thickening, may represent IBS rather than Diverticulitis.",Patient,Diverticulitis,Incorrect
+299,"Normal uterine contour, no clear Fibroids.",Doctor,Uterine Fibroids,Incorrect
+300,"Pericolic fat stranding and diverticula, consistent with Diverticulitis.",Radiologist,Diverticulitis,Correct
+301,"Bone density near normal limits, Osteoporosis doubtful.",Patient,Osteoporosis,Incorrect
+302,Clear obstructive Submandibular Stone with duct dilation.,Specialist,Submandibular Stone,Correct
+303,"Bone density significantly reduced, consistent with Osteoporosis.",Specialist,Osteoporosis,Correct
+304,"Just motion artifact, not Tonsillitis.",Doctor,Tonsillitis,Incorrect
+305,"Small lung opacity, may be infection rather than Lung Cancer.",Patient,Lung Cancer,Incorrect
+306,"Mild jaw discomfort, Submandibular Stone unlikely, needs follow-up.",Specialist,Submandibular Stone,Incorrect
+307,"Abdominal pain with normal CT, Diverticulitis unlikely.",Patient,Diverticulitis,Correct
+308,"Thyroid Nodules confirmed, urgent follow-up recommended.",Doctor,Thyroid Nodules,Correct
+309,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Patient,Disc Herniation,Correct
+310,"Diffuse soft tissue edema, not specific for Submandibular Stone.",Radiologist,Submandibular Stone,Incorrect
+311,"Dominant thyroid nodule with irregular margins, needs biopsy.",Specialist,Thyroid Nodules,Correct
+312,Infiltrative brain tumor pattern consistent with Glioblastoma.,Doctor,Glioblastoma,Correct
+313,Acute Tonsillitis with erythema and white patches.,Doctor,Tonsillitis,Correct
+314,Spiculated lung mass highly suggestive of Lung Cancer.,Specialist,Lung Cancer,Correct
+315,"Definite Submandibular Stone, moderate grade, needs medication.",Specialist,Submandibular Stone,Correct
+316,"Bones appear dense, trauma more likely than Osteoporosis.",Specialist,Osteoporosis,Correct
+317,"Normal tonsillar size, no clear Tonsillitis.",Radiologist,Tonsillitis,Incorrect
+318,"Diffuse infiltrates, Lung Cancer less likely.",Radiologist,Lung Cancer,Incorrect
+319,"No evidence of Osteoporosis, consider muscle strain.",Doctor,Osteoporosis,Incorrect
+320,"Mild jaw discomfort, Submandibular Stone unlikely, needs follow-up.",Specialist,Submandibular Stone,Incorrect
+321,Well-defined uterine lesions typical of Fibroids.,Patient,Uterine Fibroids,Correct
+322,"Clear Metacarpal Fracture with mild displacement, splint required.",Specialist,Metacarpal Fracture,Correct
+323,Marked tonsillar hypertrophy with inflammatory changes.,Patient,Tonsillitis,Correct
+324,Ring-enhancing brain lesion highly suspicious for Glioblastoma.,Patient,Glioblastoma,Correct
+325,"Normal tonsillar size, no clear Tonsillitis.",Specialist,Tonsillitis,Incorrect
+326,Infiltrative brain tumor pattern consistent with Glioblastoma.,Radiologist,Glioblastoma,Correct
+327,Marked tonsillar hypertrophy with inflammatory changes.,Specialist,Tonsillitis,Correct
+328,"Normal image, no Disc Herniation despite symptoms.",Patient,Disc Herniation,Incorrect
+329,"Salivary glands appear normal, no definite Submandibular Stone.",Patient,Submandibular Stone,Incorrect
+330,"Marked swelling around the submandibular gland, typical for Submandibular Stone.",Patient,Submandibular Stone,Correct
+331,"Mild bowel wall thickening, may represent IBS rather than Diverticulitis.",Patient,Diverticulitis,Correct
+332,Generalized osteopenia with vertebral compression fractures.,Specialist,Osteoporosis,Correct
+333,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Patient,Disc Herniation,Correct
+334,"Enlarged tonsils with exudate, classic for Tonsillitis.",Radiologist,Tonsillitis,Correct
+335,"Irregular mass with necrotic center, typical for Glioblastoma.",Radiologist,Glioblastoma,Correct
+336,"Salivary glands appear normal, no definite Submandibular Stone.",Patient,Submandibular Stone,Incorrect
+337,"Fragility fractures and low bone mass, typical Osteoporosis.",Patient,Osteoporosis,Correct
+338,Large posterior disc herniation indenting the thecal sac.,Radiologist,Disc Herniation,Incorrect
+339,Generalized osteopenia with vertebral compression fractures.,Patient,Osteoporosis,Correct
+340,"Normal tonsillar size, no clear Tonsillitis.",Doctor,Tonsillitis,Incorrect
+341,Thyroid slightly enlarged but no discrete nodules identified.,Radiologist,Thyroid Nodules,Incorrect
+342,Multiple uterine masses compatible with Fibroids.,Radiologist,Uterine Fibroids,Correct
+343,Large irregular pulmonary lesion with lymph node enlargement.,Specialist,Lung Cancer,Correct
+344,Multiple uterine masses compatible with Fibroids.,Doctor,Uterine Fibroids,Correct
+345,"Diffuse infiltrates, Lung Cancer less likely.",Doctor,Lung Cancer,Correct
+346,"Mild throat redness, viral pharyngitis more likely than Tonsillitis.",Patient,Tonsillitis,Incorrect
+347,Acute Tonsillitis with erythema and white patches.,Radiologist,Tonsillitis,Correct
+348,"Definite Diverticulitis, moderate grade, needs medication.",Doctor,Diverticulitis,Correct
+349,Multiple hypoechoic thyroid nodules with microcalcifications.,Radiologist,Thyroid Nodules,Correct
+350,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Specialist,Uterine Fibroids,Incorrect
+351,Well-defined uterine lesions typical of Fibroids.,Specialist,Uterine Fibroids,Correct
+352,"Bone density near normal limits, Osteoporosis doubtful.",Radiologist,Osteoporosis,Incorrect
+353,"Back pain with normal MRI, Disc Herniation unlikely.",Specialist,Disc Herniation,Incorrect
+354,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Doctor,Disc Herniation,Incorrect
+355,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Patient,Disc Herniation,Correct
+356,"Marked swelling around the submandibular gland, typical for Submandibular Stone.",Specialist,Submandibular Stone,Correct
+357,"Dominant thyroid nodule with irregular margins, needs biopsy.",Patient,Thyroid Nodules,Correct
+358,"Bone density near normal limits, Osteoporosis doubtful.",Patient,Osteoporosis,Incorrect
+359,Large irregular pulmonary lesion with lymph node enlargement.,Radiologist,Lung Cancer,Correct
+360,"Mild throat redness, viral pharyngitis more likely than Tonsillitis.",Patient,Tonsillitis,Correct
+361,"Just motion artifact, not Tonsillitis.",Specialist,Tonsillitis,Incorrect
+362,"Bone density significantly reduced, consistent with Osteoporosis.",Radiologist,Osteoporosis,Incorrect
+363,"Homogeneous thyroid echotexture, nodules unlikely.",Patient,Thyroid Nodules,Incorrect
+364,"Abdominal pain with normal CT, Diverticulitis unlikely.",Specialist,Diverticulitis,Incorrect
+365,"Pericolic fat stranding and diverticula, consistent with Diverticulitis.",Patient,Diverticulitis,Correct
+366,"Thyroid Nodules confirmed, urgent follow-up recommended.",Patient,Thyroid Nodules,Correct
+367,Transverse fracture line across the metacarpal shaft.,Doctor,Metacarpal Fracture,Incorrect
+368,"Normal chest imaging, Lung Cancer unlikely.",Patient,Lung Cancer,Incorrect
+369,"Salivary glands appear normal, no definite Submandibular Stone.",Radiologist,Submandibular Stone,Incorrect
+370,"Mild throat redness, viral pharyngitis more likely than Tonsillitis.",Doctor,Tonsillitis,Incorrect
+371,"Mild disc bulge without nerve compression, herniation doubtful.",Specialist,Disc Herniation,Correct
+372,Well-defined uterine lesions typical of Fibroids.,Specialist,Uterine Fibroids,Correct
+373,"Normal image, no Disc Herniation despite symptoms.",Radiologist,Disc Herniation,Incorrect
+374,"Irregular mass with necrotic center, typical for Glioblastoma.",Specialist,Glioblastoma,Correct
+375,"No clear fracture line, soft tissue swelling only.",Doctor,Metacarpal Fracture,Correct
+376,Scattered diverticula without clear signs of inflammation.,Patient,Diverticulitis,Correct
+377,Well-defined uterine lesions typical of Fibroids.,Specialist,Uterine Fibroids,Correct
+378,"Mild disc bulge without nerve compression, herniation doubtful.",Specialist,Disc Herniation,Incorrect
+379,"Normal uterine contour, no clear Fibroids.",Specialist,Uterine Fibroids,Incorrect
+380,"Marked swelling around the submandibular gland, typical for Submandibular Stone.",Doctor,Submandibular Stone,Correct
+381,Focal disc extrusion causing canal narrowing.,Doctor,Disc Herniation,Correct
+382,"Homogeneous thyroid echotexture, nodules unlikely.",Radiologist,Thyroid Nodules,Incorrect
+383,Focal disc extrusion causing canal narrowing.,Patient,Disc Herniation,Incorrect
+384,Comminuted Metacarpal Fracture after direct trauma.,Doctor,Metacarpal Fracture,Correct
+385,"Clear Lung Cancer with mild displacement, surgical fixation required.",Patient,Lung Cancer,Correct
+386,"Small lesion, likely demyelination rather than Glioblastoma.",Patient,Glioblastoma,Incorrect
+387,"Diffuse soft tissue edema, not specific for Submandibular Stone.",Radiologist,Submandibular Stone,Incorrect
+388,"Diffuse infiltrates, Lung Cancer less likely.",Radiologist,Lung Cancer,Incorrect
+389,Large intramural fibroid distorting the uterine cavity.,Specialist,Uterine Fibroids,Correct
+390,"No clear fracture line, soft tissue swelling only.",Specialist,Metacarpal Fracture,Incorrect
+391,"Homogeneous thyroid echotexture, nodules unlikely.",Radiologist,Thyroid Nodules,Incorrect
+392,Spiculated lung mass highly suggestive of Lung Cancer.,Specialist,Lung Cancer,Correct
+393,"Mild disc bulge without nerve compression, herniation doubtful.",Patient,Disc Herniation,Incorrect
+394,"Segmental bowel wall thickening with inflamed diverticula, classic Diverticulitis.",Doctor,Diverticulitis,Correct
+395,"Normal chest imaging, Lung Cancer unlikely.",Patient,Lung Cancer,Incorrect
+396,Well-defined uterine lesions typical of Fibroids.,Specialist,Uterine Fibroids,Incorrect
+397,"Normal image, no Disc Herniation despite symptoms.",Radiologist,Disc Herniation,Correct
+398,Multiple uterine masses compatible with Fibroids.,Doctor,Uterine Fibroids,Incorrect
+399,"Just motion artifact, not Tonsillitis.",Radiologist,Tonsillitis,Correct
+400,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Patient,Uterine Fibroids,Incorrect
+401,"Clear Lung Cancer with mild displacement, surgical fixation required.",Specialist,Lung Cancer,Correct
+402,"Mild jaw discomfort, Submandibular Stone unlikely, needs follow-up.",Radiologist,Submandibular Stone,Incorrect
+403,"Mild jaw discomfort, Submandibular Stone unlikely, needs follow-up.",Patient,Submandibular Stone,Incorrect
+404,"Mild bowel wall thickening, may represent IBS rather than Diverticulitis.",Patient,Diverticulitis,Incorrect
+405,Scattered diverticula without clear signs of inflammation.,Doctor,Diverticulitis,Correct
+406,"Mild disc bulge without nerve compression, herniation doubtful.",Specialist,Disc Herniation,Incorrect
+407,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Patient,Uterine Fibroids,Incorrect
+408,Generalized osteopenia with vertebral compression fractures.,Patient,Osteoporosis,Correct
+409,"Segmental bowel wall thickening with inflamed diverticula, classic Diverticulitis.",Specialist,Diverticulitis,Correct
+410,Comminuted Metacarpal Fracture after direct trauma.,Patient,Metacarpal Fracture,Correct
+411,Large intramural fibroid distorting the uterine cavity.,Doctor,Uterine Fibroids,Correct
+412,"Definite Diverticulitis, moderate grade, needs medication.",Doctor,Diverticulitis,Correct
+413,Transverse fracture line across the metacarpal shaft.,Specialist,Metacarpal Fracture,Correct
+414,Focal disc extrusion causing canal narrowing.,Specialist,Disc Herniation,Correct
+415,"Salivary glands appear normal, no definite Submandibular Stone.",Specialist,Submandibular Stone,Incorrect
+416,"Normal uterine contour, no clear Fibroids.",Specialist,Uterine Fibroids,Incorrect
+417,"Thyroid Nodules confirmed, urgent follow-up recommended.",Radiologist,Thyroid Nodules,Correct
+418,Large irregular pulmonary lesion with lymph node enlargement.,Specialist,Lung Cancer,Correct
+419,"Normal uterine contour, no clear Fibroids.",Radiologist,Uterine Fibroids,Incorrect
+420,"Normal image, no Disc Herniation despite symptoms.",Patient,Disc Herniation,Incorrect
+421,Acute Tonsillitis with erythema and white patches.,Doctor,Tonsillitis,Incorrect
+422,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Radiologist,Uterine Fibroids,Incorrect
+423,Well-defined uterine lesions typical of Fibroids.,Radiologist,Uterine Fibroids,Correct
+424,Large irregular pulmonary lesion with lymph node enlargement.,Patient,Lung Cancer,Correct
+425,Spiculated lung mass highly suggestive of Lung Cancer.,Patient,Lung Cancer,Correct
+426,Large intramural fibroid distorting the uterine cavity.,Doctor,Uterine Fibroids,Correct
+427,"Diffuse soft tissue edema, not specific for Submandibular Stone.",Doctor,Submandibular Stone,Correct
+428,"Normal tonsillar size, no clear Tonsillitis.",Doctor,Tonsillitis,Incorrect
+429,"No evidence of Osteoporosis, consider muscle strain.",Doctor,Osteoporosis,Incorrect
+430,"Abdominal pain with normal CT, Diverticulitis unlikely.",Patient,Diverticulitis,Incorrect
+431,"Irregular mass with necrotic center, typical for Glioblastoma.",Patient,Glioblastoma,Incorrect
+432,Large intramural fibroid distorting the uterine cavity.,Doctor,Uterine Fibroids,Correct
+433,Multiple uterine masses compatible with Fibroids.,Radiologist,Uterine Fibroids,Correct
+434,"Salivary glands appear normal, no definite Submandibular Stone.",Patient,Submandibular Stone,Incorrect
+435,Transverse fracture line across the metacarpal shaft.,Radiologist,Metacarpal Fracture,Correct
+436,Generalized osteopenia with vertebral compression fractures.,Patient,Osteoporosis,Correct
+437,"Definite Submandibular Stone, moderate grade, needs medication.",Doctor,Submandibular Stone,Correct
+438,"Normal chest imaging, Lung Cancer unlikely.",Doctor,Lung Cancer,Incorrect
+439,"Definite Submandibular Stone, moderate grade, needs medication.",Radiologist,Submandibular Stone,Correct
+440,Clear obstructive Submandibular Stone with duct dilation.,Radiologist,Submandibular Stone,Correct
+441,Focal disc extrusion causing canal narrowing.,Specialist,Disc Herniation,Correct
+442,"Abdominal pain with normal CT, Diverticulitis unlikely.",Radiologist,Diverticulitis,Incorrect
+443,"Dominant thyroid nodule with irregular margins, needs biopsy.",Radiologist,Thyroid Nodules,Correct
+444,"Just motion artifact, not Glioblastoma.",Specialist,Glioblastoma,Incorrect
+445,"Non-specific white matter changes, Glioblastoma doubtful.",Patient,Glioblastoma,Incorrect
+446,"Dominant thyroid nodule with irregular margins, needs biopsy.",Patient,Thyroid Nodules,Correct
+447,Comminuted Metacarpal Fracture after direct trauma.,Radiologist,Metacarpal Fracture,Correct
+448,"Salivary glands appear normal, no definite Submandibular Stone.",Radiologist,Submandibular Stone,Incorrect
+449,"Dominant thyroid nodule with irregular margins, needs biopsy.",Doctor,Thyroid Nodules,Correct
+450,Acute Tonsillitis with erythema and white patches.,Radiologist,Tonsillitis,Incorrect
+451,"Small lesion, likely demyelination rather than Glioblastoma.",Doctor,Glioblastoma,Incorrect
+452,"Normal alignment, Metacarpal Fracture unlikely.",Radiologist,Metacarpal Fracture,Incorrect
+453,"Enlarged tonsils with exudate, classic for Tonsillitis.",Radiologist,Tonsillitis,Correct
+454,"No evidence of Osteoporosis, consider muscle strain.",Radiologist,Osteoporosis,Incorrect
+455,"Clear Metacarpal Fracture with mild displacement, splint required.",Specialist,Metacarpal Fracture,Correct
+456,Infiltrative brain tumor pattern consistent with Glioblastoma.,Specialist,Glioblastoma,Correct
+457,"Mild throat redness, viral pharyngitis more likely than Tonsillitis.",Patient,Tonsillitis,Correct
+458,"Diffuse infiltrates, Lung Cancer less likely.",Radiologist,Lung Cancer,Incorrect
+459,Ring-enhancing brain lesion highly suspicious for Glioblastoma.,Radiologist,Glioblastoma,Incorrect
+460,"Normal uterine contour, no clear Fibroids.",Patient,Uterine Fibroids,Incorrect
+461,Transverse fracture line across the metacarpal shaft.,Radiologist,Metacarpal Fracture,Correct
+462,Marked tonsillar hypertrophy with inflammatory changes.,Patient,Tonsillitis,Correct
+463,Acute Tonsillitis with erythema and white patches.,Patient,Tonsillitis,Correct
+464,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Doctor,Uterine Fibroids,Incorrect
+465,"Bones appear dense, trauma more likely than Osteoporosis.",Doctor,Osteoporosis,Incorrect
+466,Infiltrative brain tumor pattern consistent with Glioblastoma.,Radiologist,Glioblastoma,Incorrect
+467,"Pericolic fat stranding and diverticula, consistent with Diverticulitis.",Patient,Diverticulitis,Correct
+468,"Back pain with normal MRI, Disc Herniation unlikely.",Patient,Disc Herniation,Incorrect
+469,"Marked swelling around the submandibular gland, typical for Submandibular Stone.",Patient,Submandibular Stone,Incorrect
+470,"Normal uterine contour, no clear Fibroids.",Specialist,Uterine Fibroids,Correct
+471,"Just motion artifact, not Glioblastoma.",Doctor,Glioblastoma,Incorrect
+472,Multiple uterine masses compatible with Fibroids.,Specialist,Uterine Fibroids,Correct
+473,Thyroid slightly enlarged but no discrete nodules identified.,Specialist,Thyroid Nodules,Incorrect
+474,"Normal chest imaging, Lung Cancer unlikely.",Radiologist,Lung Cancer,Incorrect
+475,"Bones appear dense, trauma more likely than Osteoporosis.",Doctor,Osteoporosis,Incorrect
+476,"Irregular mass with necrotic center, typical for Glioblastoma.",Doctor,Glioblastoma,Incorrect
+477,"Segmental bowel wall thickening with inflamed diverticula, classic Diverticulitis.",Specialist,Diverticulitis,Incorrect
+478,"Bone density near normal limits, Osteoporosis doubtful.",Radiologist,Osteoporosis,Incorrect
+479,"Disc protrusion compressing nerve root, consistent with Disc Herniation.",Doctor,Disc Herniation,Incorrect
+480,"Homogeneous thyroid echotexture, nodules unlikely.",Doctor,Thyroid Nodules,Incorrect
+481,"Enlarged tonsils with exudate, classic for Tonsillitis.",Radiologist,Tonsillitis,Incorrect
+482,"Non-specific white matter changes, Glioblastoma doubtful.",Radiologist,Glioblastoma,Incorrect
+483,"Mild disc bulge without nerve compression, herniation doubtful.",Specialist,Disc Herniation,Incorrect
+484,"Abdominal pain with normal CT, Diverticulitis unlikely.",Doctor,Diverticulitis,Incorrect
+485,Marked tonsillar hypertrophy with inflammatory changes.,Radiologist,Tonsillitis,Incorrect
+486,"Normal tonsillar size, no clear Tonsillitis.",Patient,Tonsillitis,Incorrect
+487,Marked tonsillar hypertrophy with inflammatory changes.,Patient,Tonsillitis,Incorrect
+488,"Mild throat redness, viral pharyngitis more likely than Tonsillitis.",Patient,Tonsillitis,Incorrect
+489,"Normal image, no Disc Herniation despite symptoms.",Specialist,Disc Herniation,Incorrect
+490,"Bone density significantly reduced, consistent with Osteoporosis.",Patient,Osteoporosis,Incorrect
+491,Scattered diverticula without clear signs of inflammation.,Specialist,Diverticulitis,Incorrect
+492,"Salivary glands appear normal, no definite Submandibular Stone.",Specialist,Submandibular Stone,Incorrect
+493,"Bone density significantly reduced, consistent with Osteoporosis.",Patient,Osteoporosis,Incorrect
+494,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Doctor,Uterine Fibroids,Incorrect
+495,Well-defined uterine lesions typical of Fibroids.,Specialist,Uterine Fibroids,Incorrect
+496,Clear obstructive Submandibular Stone with duct dilation.,Doctor,Submandibular Stone,Incorrect
+497,"Uterus slightly enlarged, fibroids doubtful, further imaging advised.",Radiologist,Uterine Fibroids,Incorrect
+498,"Segmental bowel wall thickening with inflamed diverticula, classic Diverticulitis.",Specialist,Diverticulitis,Incorrect
+499,"Fragility fractures and low bone mass, typical Osteoporosis.",Patient,Osteoporosis,Incorrect
+500,"Bone density significantly reduced, consistent with Osteoporosis.",Patient,Osteoporosis,Incorrect
